@@ -14,7 +14,7 @@ function App() {
   };
 
   const handleButtonClick = () => {
-    const newOutputValue = inputValue.replace(/,/g, ",\n");
+    const newOutputValue = inputValue.replace(/,/g, "\n,");
     setOutputValue(newOutputValue);
   };
 
@@ -35,7 +35,7 @@ function App() {
           onClick={handleButtonClick}
           className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition-colors duration-200"
         >
-          Tirar as Virgulas
+          Quebrar as linhas !
         </button>
         <textarea
           value={outputValue}
