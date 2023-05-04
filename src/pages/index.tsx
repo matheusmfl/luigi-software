@@ -22,7 +22,7 @@ function App() {
     <div className="bg-gray-100 h-screen flex justify-center items-center">
       <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
         <h1 className="text-3xl font-bold text-gray-800 mb-6">
-          Vamo trollar os angolano
+          Luigi-Softwares
         </h1>
         <input
           type="text"
