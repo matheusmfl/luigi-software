@@ -14,7 +14,7 @@ function App() {
   };
 
   const handleButtonClick = () => {
-    const newOutputValue = inputValue.replace(/,/g, "\n,");
+    const newOutputValue = inputValue.replace(/,/g, "\n ,");
     setOutputValue(newOutputValue);
   };
 
